@@ -2,28 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
-  font-family: 'Poppins',Arial, sans-serif; 
+  font-family: 'Poppins', serif; 
+  background-color: #f1f1f1;
   margin: 0;
   padding: 0;
+  font-size:16pt;
   font-size: 1em;
   background-image: url('../images/concrete_seamless.png');
 }
 
-h1 {
-  font-size: 2em;
-  text-align: center;
-  line-height: 2;
-}
-
-h2 {
-  font-size: 1.5em;
-  text-align: center;
-  padding: 5px;
-}
-
-p {
-  padding: 0 30px;
-}
 
 a.skip {
   background: white;
@@ -56,17 +43,6 @@ footer {
 
 /*Keyframes for animation*/
 
-@-webkit-keyframes logo_wiggle {
-from {
-    width: 25px;
-    opacity: 0;
-    }
-    to {
-    width: 475px;
-    opacity:1;
-    }
-} 
-
 @keyframes logo_wiggle {
   from {
     width: 25px;
@@ -74,12 +50,12 @@ from {
   }
   to {
     width: 475px;
-    opacity:1;
+    opacity: 1;
   }
 } 
 
 #logo {
-  width: 25px; /* Set initial width */
+  width: 25px; 
   opacity: 0;
   /*-webkit-animation-name: logo_wiggle;
   -webkit-animation-duration: 5s;*/
@@ -158,25 +134,7 @@ from {
     transform: scaleX(1.12);
 }
 
-/* Gallery! */
-/*
-.gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-*/
+
 gallery {
     display: flex;
     flex-wrap: wrap;
@@ -313,10 +271,10 @@ header {
   .pricing {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-around;
   }
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica;
     background-image: none;
   }
   
