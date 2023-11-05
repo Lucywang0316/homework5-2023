@@ -1,6 +1,6 @@
-
+/* Importing Google Fonts and setting default styles */
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
+/* Styling for the body element */
 body {
   font-family: 'Poppins', serif; 
   background-color: #f1f1f1;
@@ -85,7 +85,7 @@ footer {
     -ms-flex-line-pack: center;
         align-content: center;
 }
-
+/* Card styles */
 .card {
   margin: 12px;
   background: #fff;
@@ -95,7 +95,7 @@ footer {
   -ms-flex-preferred-size: 450px;
       flex-basis: 450px;
 }
-
+/* Card header styles */
 .card > header {
   background: #288088;
   border: 2px solid #45ADAD;
@@ -134,7 +134,7 @@ footer {
     transform: scaleX(1.12);
 }
 
-
+/* Gallery styles */
 gallery {
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +150,7 @@ gallery {
   
 }
 
-/* Navbar */
+/* Header styles */
 header {
   background: #fff;
   border-bottom: 3px solid #50C7C7;
@@ -168,7 +168,7 @@ header {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-
+/* Navigation links styles */
 .nav_links {
   list-style: none;
   /* spec styles */
@@ -180,7 +180,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
+/* Styling for navigation links */
 .nav_item a {
   color: blue;
   text-decoration: underline;
@@ -188,7 +188,7 @@ header {
 .nav_item li a:visited {
     color: blue;
   }
-  
+/* Link hover and focus styles */
 .nav_item a:hover, a:focus {
   color: #50C7C7;
   text-decoration: underline;
@@ -196,12 +196,13 @@ header {
   text-decoration-style: dotted;
 }
 
-@media screen and (min-width: 900px) {
+/* Media queries for responsive design */
 
-  /* Cards! */
-  /* parent container for card*/
+@media screen and (min-width: 900px) {
+/* Header and navigation styles for larger screens */
+
+ /* Pricing and card styles for larger screens */
 .pricing {
-    /*min-height: 450px;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -213,6 +214,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
   }
+    /* Cards! */
   .card {
     margin: 12px;
     /* spec styles */
@@ -268,6 +270,7 @@ header {
 
 
 @media print { 
+   /* Styles for print view */
   .pricing {
     display: flex;
     flex-wrap: wrap;
